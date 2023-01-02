@@ -1,0 +1,137 @@
+h1,
+h2,
+h3,
+h4,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+/*==========COMPONENTS==========*/
+h1{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+h2{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;    
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;    
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;  
+}
+/*logo*/
+.logo-text-part-one{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-text-part-two-theme-light{
+    color: #2E2F42;
+}
+.logo-text-part-two-theme-dark{
+    color: #F4F4FD;
+}
+/*==========HEADER==========*/
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+}
+.contact{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact:hover,
+.contact:focus{
+    color:#404BBF
+}
+/*==========/HEADER==========*/
+
+
+/*==========HERO SECTION==========*/
+.btn{
+    cursor: pointer;
+}
+.modal-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;   
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    background: #404BBF;
+}
+/*==========/HERO SECTION==========*/
+/*==========FUTHER==========*/
+.text-theme-dark{
+    color: #E7E9FC;
+}
+/*==========/FUTHER==========*/
+/*==========FILTRES==========*/
+.filtres-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.filtres-btn:hover,
+.filtres-btn:focus{
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/*==========/FILTRES==========*/
+
+
+
