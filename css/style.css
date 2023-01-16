@@ -55,13 +55,15 @@ button{
 
 /*==========COMPONENTS==========*/
 .title{
-    font-size: 56px;
+    width: 496px;
+    font-size: 56px;  
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-theme-dark);
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 48px; 
+    margin-bottom: 48px;
+    
 }
 .heading{
     font-size: 36px;
@@ -137,14 +139,14 @@ button{
     border-radius: 0px 0px 4px 4px;
 }
 .employees-card-wraper{
-    background: white;
-    border: 1px solid #E7E9FC;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    background: white;    
 }
 .employees-card-content-wraper{
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16px; 
+    padding-left: 16px;
+    border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 /*==========EMPLOYEES==========*/
@@ -224,7 +226,8 @@ button{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin:0 auto;
-    display: block    
+    display: block; 
+    border: none;  
 }
 .modal-btn:hover,
 .modal-btn:focus{
@@ -261,10 +264,15 @@ button{
     color: #E7E9FC;
 }
 /*==========/FOOTER==========*/
-/*==========PORTFOLIO FILTRES=======*/
-.filtres{
+/*==========PORTFOLIO=======*/
+.portfolio{
     padding-top: 96px;
-    padding-bottom: 72px; 
+    padding-bottom: 120px;
+}
+/*==========/PORTFOLIO=======*/
+/*==========PORTFOLIO FILTRES=======*/
+.filtres{   
+    margin-bottom: 72px; 
 }
 .filtres-btn{
     color: var(--accent-color);
@@ -284,8 +292,9 @@ button{
     border-radius: 4px;
 }
 /*==========/PORTFOLIO FILTRES========*/
-
 /*==========PORTFOLIO CARDS==========*/
-.wrap-card-portfolio{
+
+/*.wrap-card-portfolio{
     padding-bottom: 120px;
-}
+}*/
+/*==========/PORTFOLIO CARDS==========*/
